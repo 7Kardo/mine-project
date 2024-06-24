@@ -4,7 +4,7 @@ body{
     font-family: sans-serif;
 }
 .contenar{
-    height: 50px;
+    height: 5%;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -44,6 +44,7 @@ li:active{
 .span{
     color: #D4AC0D;
     font-size: 50px;
+    text-shadow: 5px 5px 10px #D4AC0D;
 }
 .contenar2{
     width: 300px;
@@ -63,8 +64,15 @@ li:active{
     margin: 10px auto;
     border: 2px dotted red;
 }
-.hed,.paragraf{
-    text-align: center;
+.paragraf{
+
+    text-align: center; 
+    
+}
+.hed{
+    margin: 15px auto;
+    width: 50%;
+    border-bottom: 2px solid gray;
 }
 .img2{
     width: 30px;
@@ -76,4 +84,35 @@ li:active{
 .contenarimg{
     background-color: #EAEDED ;
     text-align: center;
+}
+.contenar3{
+    width: 80%;
+    height: 30rem;
+    background-color: #ADD8E6;
+    margin: auto;
+    border-radius: 10px;
+   text-align: center;
+}
+.chail{
+    background-color: black;
+    height:10px;
+    width: 10px;
+    border-radius: 50%;
+    display:inline-block;
+    margin-top: 50px;
+    box-shadow: 
+    30px 0px,
+    15px 18px red,
+    1px 40px 0 -3px,
+    8px 43px 0 -3px,
+    16px 43px 0 -3px,
+    25px 40px 0 -3px,
+    15px 100px,
+    15px 130px,
+    15px 150px,
+    15px 180px,
+    15px 20px 0 30px whitesmoke,
+    15px 130px 0 60px whitesmoke,
+    15px 230px 0 60px whitesmoke,
+    6px 430px 0 210px #D35400;
 }
